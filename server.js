@@ -8,8 +8,8 @@ app.use(cors());
 
 // Route for greeting
 app.get('/api/greeting', (req, res) => {
-  res.json({ message: 'Welcome to 100 MERN' });
-});
+    res.json({ message: 'Welcome to 100 MERN' });
+  });  
 
 // Start the server
 app.listen(PORT, () => {
